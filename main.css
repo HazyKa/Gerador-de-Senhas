@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(41, 40, 40);
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 1rem;
+}
+
+.wrapper h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+#result {
+  border: 1px solid rgb(202, 77, 4);
+  border-radius: 3px;
+  resize: none;
+  margin-bottom: 1rem;
+  outline: none;
+  text-align: center;
+  font-size: 2.5rem;
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 1rem;
+  background-color: #555555;
+  color: #fff;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+input[type="number"] {
+  width: 98px;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px 10px;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 11px 23px;
+  background: #555555;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.btn--green {
+  background-color: #1cb15b;
+}
+
+.btn--green:hover {
+  background-color: #218c74;
+}
+
+.btn--blue {
+  background-color: #3498db;
+}
+
+.btn--blue:hover {
+  background-color: #2980b9;
+}
+
+/*ICONS NORMALIZE*/
+[class^="fa-"]:before,
+[class*=" fa-"]:before {
+  position: relative !important;
+  /*top: .125em !Important;*/
+  margin-right: 0.6em !important;
+}
+
+.box-repositor {
+  margin-top: 2rem;
+  text-align: center;
+}
+.box-repositor i {
+  color: #2980b9;
+  font-size: 3rem;
+}
+.box-repositor a {
+  display: block;
+  color: #2980b9;
+}
+.normalize-icon [class^="fa-"]:before,
+.normalize-icon [class*=" fa-"]:before {
+  position: relative !important;
+  /* top: 0.125em !Important; */
+  margin-right: 0 !important;
+}
+
+input[type="checkbox"] {
+  width: 21px;
+  height: 21px;
+}
+label {
+  font-size: 1.3rem;
+}
